@@ -1,0 +1,76 @@
+body {
+    background-color: #3100ED;
+    color: black;
+}
+
+section {
+    width: 80%;
+    float: left;
+    background-color: white;
+    padding-left: 20px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    border-left: 1px solid white;
+    background-color: white;
+}
+
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+
+footer {
+    clear: both;
+    position: relative;
+    height: 20px;
+    text-align: center;
+    color: white;
+    background-color: #3100ED;
+}
+
+h2{
+    color: #3100ED;
+}
+
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 110px);
+}
+
+body {
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: white;
+    position: fixed;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #3100ED;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration-line: underline;
+  }
+  
+  li a.active {
+    background-color: #3100ED;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #3100ED;
+    color: white;
+  }
